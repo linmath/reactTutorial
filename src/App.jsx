@@ -3,6 +3,8 @@ import ItemDisplay from "./ItemsDisplay";
 import SearchBar from "./SearchBar";
 import AddItem from "./addItem";
 import { useState } from "react";
+import styled from "styled-components";
+
 
 function App() {
   const [filters, setFilters] = useState({});
@@ -21,10 +23,16 @@ function App() {
   }
 
   return (
-    <div className="App">
-      <SearchBar updateSearchParams={updateFilters} />
-      <ItemDisplay items={data["items"]}  />
-      <AddItem addItem={addItemToData} />
+    <div className="container">
+      <div className="row mt-3">
+        <ItemDisplay items={data["items"]}  />
+      </div>
+      <div className="row mt-3">
+        <SearchBar updateSearchParams={updateFilters} />
+      </div>
+      <div className="row mt-3">
+        <AddItem addItem={addItemToData} />
+      </div>
     </div>
   );
 }
