@@ -27,7 +27,7 @@ function SearchBar(props) {
                         </input>
                     </div>
                     <div className="col mt-2">
-                        <label htmlFor="price-field">Price: </label>
+                        <label htmlFor="price-field">Maxprice: </label>
                         <input
                             id="price-field"
                             type="number"

@@ -1,0 +1,25 @@
+{
+  "items": [
+    {
+      "id": "b994",
+      "name": "Alina",
+      "price": "9",
+      "type": "person",
+      "brand": "good"
+    },
+    {
+      "id": "278f",
+      "name": "Alina",
+      "price": "11",
+      "type": "person",
+      "brand": "done"
+    },
+    {
+      "id": "a096",
+      "name": "Alina",
+      "price": "2",
+      "type": "person",
+      "brand": "awake"
+    }
+  ]
+}
